@@ -572,8 +572,12 @@ body {
 .footer__subscribe {
   justify-self: stretch;
 }
+.logo-hero {
+  display: none;
+}
 @media only screen and (max-width: 600px) {
   .logo-hero {
+    display: block;
     position: absolute;
     top: 5rem;
     left: 5rem;
