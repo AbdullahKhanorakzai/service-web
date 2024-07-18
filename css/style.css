@@ -449,6 +449,9 @@ body {
 
 .progress {
   padding: 0 10rem;
+  @media only screen and (max-width: 600px) {
+    padding: 0;
+  }
 }
 .progress__boxes {
   display: grid;
@@ -517,7 +520,7 @@ body {
 @media only screen and (max-width: 600px) {
   .project__text-box {
     border-radius: 1rem;
-    padding: 0.5rem 1rem;
+    padding: 5.5rem 3rem;
   }
 }
 
@@ -526,6 +529,9 @@ body {
   grid-row: 8/9;
   background-color: #f5f7fa;
   padding-bottom: 4rem;
+  @media only screen and (max-width: 600px) {
+    padding: 4rem 2rem;
+  }
 }
 
 .footer {
@@ -535,6 +541,10 @@ body {
   padding: 4rem 6rem;
   font-size: 1.6rem;
   color: #fff;
+
+  @media only screen and (max-width: 600px) {
+    font-size: 2.2rem;
+  }
 }
 .footer__right {
   display: flex;
@@ -542,6 +552,12 @@ body {
 }
 .footer__nav {
   list-style: none;
+}
+
+.footer__nav li {
+  @media only screen and (max-width: 600px) {
+    margin-bottom: 0.5rem;
+  }
 }
 .footer__nav li a {
   text-decoration: none;
