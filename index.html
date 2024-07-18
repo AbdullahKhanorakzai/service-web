@@ -7,24 +7,6 @@
     <title>Landing page</title>
   </head>
 
-  <style>
-    .viewport-info {
-      position: fixed;
-      top: 10rem;
-      right: 0;
-      text-align: center;
-      background-color: rgba(100, 100, 100, 0.836);
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-
-    .viewport-info p {
-      color: #fff;
-      margin: 10px 0;
-      font-size: 12px;
-      font-weight: 700;
-    }
-  </style>
-
   <body>
     <div class="grid">
       <div class="navbar">
@@ -343,26 +325,5 @@
         </div>
       </footer>
     </div>
-    <!--Veiwport Code-->
-    <div class="viewport-info">
-      <p id="width"></p>
-      <p id="height"></p>
-    </div>
-
-    <script>
-      function updateViewportInfo() {
-        const width = window.innerWidth;
-        const height = window.innerHeight;
-
-        document.getElementById("width").textContent = `Width: ${width}px`;
-        document.getElementById("height").textContent = `Height: ${height}px`;
-      }
-
-      // Update viewport information when the page loads
-      updateViewportInfo();
-
-      // Update viewport information when the window is resized
-      window.addEventListener("resize", updateViewportInfo);
-    </script>
   </body>
 </html>
