@@ -32,6 +32,7 @@ body {
   font-weight: 400;
   color: #717171;
   overflow-x: hidden;
+  position: relative;
 }
 
 .container {
@@ -391,6 +392,7 @@ body {
   .header__text-box {
     text-align: center;
     margin-bottom: 5rem;
+    margin-top: 5rem;
   }
 }
 .header__img-box {
@@ -569,4 +571,12 @@ body {
 }
 .footer__subscribe {
   justify-self: stretch;
+}
+@media only screen and (max-width: 600px) {
+  .logo-hero {
+    position: absolute;
+    top: 5rem;
+    left: 5rem;
+    z-index: 9999;
+  }
 }
