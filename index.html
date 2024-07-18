@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Landing page</title>
+  </head>
+
+  <style>
+    .viewport-info {
+      position: fixed;
+      top: 10rem;
+      right: 0;
+      text-align: center;
+      background-color: rgba(100, 100, 100, 0.836);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .viewport-info p {
+      color: #fff;
+      margin: 10px 0;
+      font-size: 12px;
+      font-weight: 700;
+    }
+  </style>
+
+  <body>
+    <div class="grid">
+      <div class="navbar">
+        <img src="img/brand-logo.svg" alt="comapny logo" />
+        <nav class="nav">
+          <ul class="nav__lists">
+            <li class="nav__list"><a href="#">Home</a></li>
+            <li class="nav__list"><a href="#">Features</a></li>
+            <li class="nav__list"><a href="#">Community</a></li>
+            <li class="nav__list"><a href="#">Blog</a></li>
+            <li class="nav__list"><a href="#">Pricing</a></li>
+            <li class="nav__list">
+              <a href="#" class="btn--green"
+                >Register Now <span class="arrow">&rarr;</span></a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <header class="header">
+        <div class="container header__box">
+          <div class="header__text-box">
+            <p class="text">
+              Where to grow your business as a photogrhapher: site or social
+              media?
+            </p>
+            <h1 class="heading-primary mb-bottom-large">
+              Lessons and insights <span class="green-text">from 8 years</span>
+            </h1>
+
+            <a href="#" class="btn--green">Rigester</a>
+          </div>
+          <div class="header__img-box">
+            <img src="img/hero.png" alt="hero img" />
+          </div>
+        </div>
+      </header>
+
+      <section class="feature">
+        <div class="container">
+          <div class="title-box">
+            <h2 class="heading-secondary mb-bottom-smallest">Our Clients</h2>
+            <p class="text">
+              We have been working with some Fortune 500+ clients
+            </p>
+          </div>
+
+          <div class="feature-box__icon">
+            <img
+              src="img/feature-logo-1.svg"
+              alt="fetured-logos"
+              class="feature__icon"
+            />
+            <img
+              src="img/feature-logo-2.svg"
+              alt="fetured-logos"
+              class="feature__icon"
+            />
+            <img
+              src="img/fetured-logo-3.svg"
+              alt="fetured-logos"
+              class="feature__icon"
+            />
+            <img
+              src="img/featured-logo-4.svg"
+              alt="fetured-logos"
+              class="feature__icon"
+            />
+            <img
+              src="img/fetured-logo-5.svg"
+              alt="fetured-logos"
+              class="feature__icon"
+            />
+            <img
+              src="img/featured-logo-6.svg"
+              alt="fetured-logos"
+              class="feature__icon"
+            />
+            <img
+              src="img/featured-logo-7.svg"
+              alt="fetured-logos"
+              class="feature__icon"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="community">
+        <div class="container">
+          <div class="title-box">
+            <h2
+              class="heading-secondary mb-bottom-smallest p-hr-largest mb-bottom-small"
+            >
+              Manage your entire community in a single system
+            </h2>
+            <p class="text">Who is Nextcent suitable for?</p>
+          </div>
+
+          <div class="community__text-box grid--3--cols">
+            <div class="box mb-bottom-large">
+              <img src="img/com-1.svg" alt="" class="mb-bottom-medium" />
+              <h3 class="heading-tertiary mb-bottom-small">
+                Membership Organisations
+              </h3>
+              <p class="text">
+                Our membership management software provides full automation of
+                membership renewals and payments
+              </p>
+            </div>
+            <div class="box mb-bottom-large">
+              <img src="img/com-2.svg" alt="" class="mb-bottom-medium" />
+              <h3 class="heading-tertiary mb-bottom-small">
+                National Associations
+              </h3>
+              <p class="text">
+                Our membership management software provides full automation of
+                membership renewals and payments
+              </p>
+            </div>
+            <div class="box mb-bottom-large">
+              <img src="img/com-3.svg" alt="" class="mb-bottom-medium" />
+              <h3 class="heading-tertiary mb-bottom-small">Clubs And Groups</h3>
+              <p class="text">
+                Our membership management software provides full automation of
+                membership renewals and payments
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="blog">
+        <div class="container">
+          <div class="blog__container grid--2--cols">
+            <div class="blog__img">
+              <img src="img/blog-img.png" alt="blog img" />
+            </div>
+            <div class="blog__text-box">
+              <h3 class="heading-tertiary mb-bottom-smallest">
+                The unseen of spending three years at Pixelgrade
+              </h3>
+              <p class="text mb-bottom-medium">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit
+                amet justo ipsum. Sed accumsan quam vitae est varius fringilla.
+                Pellentesque placerat vestibulum lorem sed porta. Nullam mattis
+                tristique iaculis. Nullam pulvinar sit amet risus pretium
+                auctor. Etiam quis massa pulvinar, aliquam quam vitae, tempus
+                sem. Donec elementum pulvinar odio.
+              </p>
+              <a href="#" class="btn--green">Learn More <span>&rarr;</span></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="pricing">
+        <div class="container">
+          <div class="grid--2--cols">
+            <div class="pricing-plan">
+              <h3 class="heading-tertiary mb-bottom-smallest">
+                Helping a local
+                <span class="green-text"> business reinvent itself</span>
+              </h3>
+              <p class="text">
+                We reached here with our hard work and dedication
+              </p>
+            </div>
+
+            <div class="progress">
+              <div class="progress__boxes">
+                <div class="progress-box-">
+                  <img src="img/progress-1.svg" alt="" />
+                  <div class="progress__text">
+                    <h3 class="heading-tertiary">2,245,341</h3>
+                    <p class="text">Members</p>
+                  </div>
+                </div>
+                <div class="progress-box-">
+                  <img src="img/progress-2.svg" alt="" />
+                  <div class="progress__text">
+                    <h3 class="heading-tertiary">2,245,341</h3>
+                    <p class="text">Members</p>
+                  </div>
+                </div>
+                <div class="progress-box-">
+                  <img src="img/progress-3.svg" alt="" />
+                  <div class="progress__text">
+                    <h3 class="heading-tertiary">2,245,341</h3>
+                    <p class="text">Members</p>
+                  </div>
+                </div>
+                <div class="progress-box-">
+                  <img src="img/progress-4.svg" alt="" />
+                  <div class="progress__text">
+                    <h3 class="heading-tertiary">2,245,341</h3>
+                    <p class="text">Members</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="project">
+        <div class="container">
+          <div class="title-box">
+            <h2
+              class="heading-secondary mb-bottom-smallest p-hr-largest mb-bottom-small"
+            >
+              Caring is the new marketing
+            </h2>
+            <p class="text">
+              The Nextcent blog is the best place to read about the latest
+              membership insights, trends and more. See who's joining the
+              community,<br />
+              read about how our community are increasing their membership
+              income and lot's more.​
+            </p>
+          </div>
+
+          <div class="project__container grid--3--cols">
+            <div class="project__container-1">
+              <img src="img/project-img-1.png" alt="project img 1" />
+
+              <div class="project__text-box">
+                <p class="text mb-bottom-smallest">
+                  Creating Streamlined Safeguarding Processes with OneRen
+                </p>
+                <a href="#" class="read-more">read more &rarr;</a>
+              </div>
+            </div>
+            <div class="project__container-1">
+              <img src="img/project-img-2.png" alt="project img 1" />
+
+              <div class="project__text-box">
+                <p class="text mb-bottom-smallest">
+                  Creating Streamlined Safeguarding Processes with OneRen
+                </p>
+                <a href="#" class="read-more">read more &rarr;</a>
+              </div>
+            </div>
+            <div class="project__container-1 project__last">
+              <img src="img/project-img-3.png" alt="project img 1" />
+
+              <div class="project__text-box">
+                <p class="text mb-bottom-smallest">
+                  Creating Streamlined Safeguarding Processes with OneRen
+                </p>
+                <a href="#" class="read-more">read more &rarr;</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="title-box project__footer">
+        <h2 class="heading-secondary mb-bottom-medium hr-padding size-big">
+          Pellentesque suscipit fringilla libero eu.
+        </h2>
+        <button class="btn--green">get demo</button>
+      </div>
+
+      <footer class="footer">
+        <div class="container grid--2--cols">
+          <div class="footer__left">
+            <div class="footer__brand u-margin-bottom-medium">
+              <img src="img/barnd-logo-white.svg" alt="Nexcent logo" />
+            </div>
+            <p class="footer__text mb-bottom-smallest">
+              &copy; 2020 Landify UI Kit. All rights reserved
+            </p>
+          </div>
+          <div class="footer__right">
+            <div class="footer__column">
+              <h3 class="heading-tertiary color-wihte mb-bottom-smallest">
+                Company
+              </h3>
+              <ul class="footer__nav">
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Testimonials</a></li>
+              </ul>
+            </div>
+            <div class="footer__column">
+              <h3 class="heading-tertiary color-wihte mb-bottom-smallest">
+                Support
+              </h3>
+              <ul class="footer__nav">
+                <li><a href="#">Help center</a></li>
+                <li><a href="#">Terms of service</a></li>
+                <li><a href="#">Legal</a></li>
+                <li><a href="#">Privacy policy</a></li>
+                <li><a href="#">Status</a></li>
+              </ul>
+            </div>
+            <div class="footer__subscribe">
+              <h3 class="heading-tertiary color-wihte mb-bottom-smallest">
+                Stay up to date
+              </h3>
+              <form action="#" class="form">
+                <input
+                  type="email"
+                  placeholder="Your email address"
+                  class="form__input"
+                />
+                <button type="submit" class="form__button">
+                  <img src="img/submit.svg" alt="submit logo" />
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!--Veiwport Code-->
+    <div class="viewport-info">
+      <p id="width"></p>
+      <p id="height"></p>
+    </div>
+
+    <script>
+      function updateViewportInfo() {
+        const width = window.innerWidth;
+        const height = window.innerHeight;
+
+        document.getElementById("width").textContent = `Width: ${width}px`;
+        document.getElementById("height").textContent = `Height: ${height}px`;
+      }
+
+      // Update viewport information when the page loads
+      updateViewportInfo();
+
+      // Update viewport information when the window is resized
+      window.addEventListener("resize", updateViewportInfo);
+    </script>
+  </body>
+</html>
